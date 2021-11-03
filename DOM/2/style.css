@@ -1,0 +1,3 @@
+html, body{ padding: 0; margin: 0; }
+#blueBox{ width: 200px; height: 200px; padding: 10px 10px; margin-bottom: 20px; font-size: 17px; font-weight: bold; color: #ffffff; background: blue; transition: all .3s linear; -webkit-transition: all .3s linear; -moz-transition: all .3s linear; -ms-transition: all .3s linear; -o-transition: all .3s linear; }
+#redBox{ width: 200px; height: 200px; padding: 10px 10px; font-size: 17px; font-weight: bold; color: #ffffff; background: red; transition: all .3s linear; -webkit-transition: all .3s linear; -moz-transition: all .3s linear; -ms-transition: all .3s linear; -o-transition: all .3s linear; }

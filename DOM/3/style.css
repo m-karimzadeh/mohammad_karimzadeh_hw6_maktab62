@@ -1,0 +1,8 @@
+html, body{ padding: 0; margin: 0; }
+*{ box-sizing: border-box; }
+#parentNode{ line-height: 30px; padding: 10px 10px; font-size: 17px; font-weight: bold; color: #ffffff; background: green; }
+#mainNode, #childNode{ padding: 0 10px; margin: 20px 20px; border: 1px solid #000000; }
+
+#btnBox{ margin-top: 20px; display: flex; align-items: center; }
+#btnBox button{ height: 40px; padding: 0 10px; margin-right: 10px; border: none; font-weight: bold; font-size: 15px; background: #ededed; border-radius: 5px; display: block; cursor: pointer; transition: all .3s linear; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; -webkit-transition: all .3s linear; -moz-transition: all .3s linear; -ms-transition: all .3s linear; -o-transition: all .3s linear; }
+#btnBox button:hover{ background: #08a83d; color: #ffffff; }

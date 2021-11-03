@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <form action="" onsubmit="return checkForm(this)">
+        <fieldset>
+            <legend>کلمه کاربری</legend>
+            <input id="username" name="username" type="text" autocomplete="off">
+        </fieldset>
+        <section id="usernameError" class="formError">الزامی</section>
+
+        <fieldset>
+            <legend>کلمه عبور</legend>
+            <input id="password" name="password" type="password" autocomplete="off">
+        </fieldset>
+        <section id="passwordError" class="formError">رمز عبور باید حداقل شامل 8 کاراکتر و حداقل یک حرف بزرگ و یک عدد باشد.</section>
+
+        <fieldset>
+            <legend>تائید کلمه عبور</legend>
+            <input id="rePassword" name="rePassword" type="password" autocomplete="off">
+        </fieldset>
+        <section id="rePasswordError" class="formError">رمزهای وارد شده یکسان نیستند</section>
+
+        <button type="submit">ارسال</button>
+    </form>
+    
+    <script type="text/javascript" src="common.js"></script>
+</body>
+</html>
