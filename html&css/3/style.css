@@ -1,0 +1,40 @@
+/*** Created by finalstar on 1/19/2021. */
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------------------- reset ----------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section { display: block; }
+body{ line-height: 1; }
+table { border-collapse: collapse; border-spacing: 0; }
+input,textarea{ padding: 0; font-family: textFont; font-size: 15px; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+
+html,body{ width: 100%; height: 100%; }
+*{ box-sizing: border-box; }
+
+#container{ height: 100%; line-height: 35px; font-family: sans-serif; font-weight: bold; font-size: 30px; }
+
+#greenBox{ height: 150px; padding: 20px 20px 0 20px; background: #bdfdc9; }
+#flexBox{ height: calc(100% - 180px); margin-top: 30px; display: flex; justify-content: space-between; }
+#flexBox > section{ width: calc((100% / 3) - 20px); }
+#yellowBox{ padding: 20px 20px; background: #ffffb9; }
+#flexBox ul{ padding: 0 20px; margin-top: 20px; }
+#flexBox li{ padding: 10px 10px; margin-bottom: 20px; font-weight: normal; font-size: 17px; background: #ffffff; display: block; }
+#flexBox li:last-child{ margin-bottom: 0; }
+#orangeBox{ height: calc(50% - 15px); padding: 20px 20px; margin-bottom: 30px; background: #ffdfb9; }
+#blueBox{ height: calc(50% - 15px); padding: 20px 20px; background: #bae1ff; }
+#redBox{ padding: 20px 20px; background: #ffb3bd; }

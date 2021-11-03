@@ -1,0 +1,59 @@
+/*** Created by finalstar on 1/19/2021. */
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------------------- reset ----------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section { display: block; }
+body{ line-height: 1; }
+table { border-collapse: collapse; border-spacing: 0; }
+input,textarea{ padding: 0; font-family: textFont; font-size: 15px; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+
+html{ scroll-behavior: smooth; }
+html,body{ width: 100%; height: 100%;  }
+*{ box-sizing: border-box; }
+
+nav{ width: 20px; height: 140px; margin: auto; position: fixed; top: 0; bottom: 0; right: 10px; }
+nav a{ width: 20px; height: 20px; margin-bottom: 10px; border: 2px solid #ffffff; border-radius: 50%; display: block; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; }
+nav a:last-child{ margin-bottom: 0; }
+nav a:nth-child(1){ background: #3a4a60; }
+nav a:nth-child(2){ background: #68bd77; }
+nav a:nth-child(3){ background: #ea744d; }
+nav a:nth-child(4){ background: #d46d26; }
+nav a:nth-child(5){ background: #9d78b8; }
+
+#bannerBox1{ height: 100%; background: #374c62; display: flex; align-items: center; justify-content: center; }
+#bannerBox1 h2{ line-height: 40px; padding: 15px 20px; font-size: 36px; font-weight: bold; color: #ffffff; border: 1px solid #ffffff; transition: all .3s linear; -webkit-transition: all .3s linear; -moz-transition: all .3s linear; -ms-transition: all .3s linear; -o-transition: all .3s linear; }
+#bannerBox1 h2:hover{ background: #ffffff; color: #374c62; }
+
+.bannerInfoBox{ height: 100%; padding: 25px 100px; display: flex; align-items: center; justify-content: space-between; }
+.bannerInfoBox > section{ width: calc(100% - 550px); line-height: 20px; font-size: 17px; color: #ffffff; }
+.bannerInfoBox h2{ line-height: 40px; padding: 15px 20px; margin-bottom: 20px; font-size: 36px; font-weight: bold; color: #ffffff; border: 1px solid #ffffff; text-align: center; transition: all .3s linear; -webkit-transition: all .3s linear; -moz-transition: all .3s linear; -ms-transition: all .3s linear; -o-transition: all .3s linear; }
+.bannerInfoBox h2:hover{ background: #ffffff; }
+.bannerInfoBox > img{ width: 500px; }
+
+#bannerBox2{ background: #68bd77; }
+#bannerBox2 h2:hover{ color: #68bd77; }
+
+#bannerBox3{ background: #ea744d; }
+#bannerBox3 h2:hover{ color: #ea744d; }
+
+#bannerBox4{ background: #d46d26; }
+#bannerBox4 h2:hover{ color: #d46d26; }
+
+#bannerBox5{ background: #9d78b8; }
+#bannerBox5 h2:hover{ color: #9d78b8; }
